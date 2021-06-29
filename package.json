@@ -1,0 +1,22 @@
+{
+    "name": "practice",
+    "version": "1.0.0",
+    "description": "BMI Calculator for larger data via request body",
+    "scripts": {
+        "test": "mocha --timeout 10000",
+        "start": "nodemon main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PradeepSV006/code-29062021-pradeepsv.git"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "chai-http": "^4.3.0",
+        "mocha": "^9.0.1",
+        "nodemon": "^2.0.7"
+    }
+}
