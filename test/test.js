@@ -15,13 +15,13 @@ describe('CalculateBmi', () => {
             let inputJson = [
                 {
                   "Gender": "Male",
-                  "HeightCm": 969,
-                  "WeightKg": 96
+                  "HeightCm": 960,
+                  "WeightKg": 60
                 },
                 {
                   "Gender": "Male",
-                  "HeightCm": 161,
-                  "WeightKg": 85
+                  "HeightCm": 190,
+                  "WeightKg": 5
                 }]
             chai.request(app)
                 .post('/getBmiResults')
